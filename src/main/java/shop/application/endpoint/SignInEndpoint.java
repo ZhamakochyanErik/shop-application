@@ -10,7 +10,7 @@ import shop.application.dto.response.SignInResponseDto;
 import shop.application.service.interfaces.UserService;
 
 @RestController
-@RequestMapping("/singIn")
+@RequestMapping("/signIn")
 public class SignInEndpoint {
 
     private final UserService userService;
